@@ -24,13 +24,17 @@ public class FoxHoundUtils {
     // HINT Write your own constants here to improve code readability ...
 
     public static String[] initialisePositions(int dimension) {
-        int middle = dimension / 2 + 1;
+
+
+        int middle = dimension / 2;
         String[] position = new String[middle];
-        for (int i = 0; i < middle-1; i++) {
+        for (int i = 0; i < middle; i++) {
             position[i] = (char)('B' + i * 2) + "1";
         }
-        position[position.length-1] = (char)(middle+64) + Integer.toString(dimension);
+        position[position.length-1] = Integer.toString(dimension);
 
         return  position;
+
+
     }
 }
