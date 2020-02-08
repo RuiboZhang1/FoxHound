@@ -24,13 +24,39 @@ public class FoxHoundUtils {
     // HINT Write your own constants here to improve code readability ...
 
     public static String[] initialisePositions(int dimension) {
-        int middle = dimension / 2 + 1;
+        int middle = dimension / 2;
         String[] position = new String[middle];
-        for (int i = 0; i < middle-1; i++) {
+        for (int i = 0; i < middle; i++) {
             position[i] = (char)('B' + i * 2) + "1";
         }
-        position[position.length-1] = (char)(middle+64) + Integer.toString(dimension);
+
+        if (dimension % 2 == 0) {
+            if (middle % 2 == 0) {
+                position[middle] = (char) (65+middle) + Integer.toString(dimension);
+            } else {
+                position[middle] = (char) (64+middle) + Integer.toString(dimension);
+            }
+        } else {
+            if (((dimension + 1) / 2) % 2 == 0) {
+                position[middle] = (char) (65+middle) + Integer.toString(dimension);
+            } else {
+                position[middle] = (char) (66+middle) + Integer.toString(dimension);
+            }
+        }
 
         return  position;
+
+
+    }
+
+    public static boolean isHoundWin(String[] players, int dimension) {
+        return true;
+    }
+
+    public static boolean isValidMove(int dim, String[] players, char figure, String origin, String dest) {
+        return true;
+    }
+
+    public static void isFoxWin(Object o) {
     }
 }
