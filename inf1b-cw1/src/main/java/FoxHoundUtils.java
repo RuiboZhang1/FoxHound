@@ -25,19 +25,21 @@ public class FoxHoundUtils {
 
     public static String[] initialisePositions(int dimension) {
         int middle = dimension / 2;
-        String[] position = new String[middle];
+        String[] position = new String[middle+1];
         for (int i = 0; i < middle; i++) {
-            position[i] = (char)('B' + i * 2) + "1";
+            position[i] = (char)('B' + i * 2) + "1";  // add position of hound in to the array
         }
 
-        if (dimension % 2 == 0) {
+        if (dimension % 2 == 0) {    // if the dimension is even
             if (middle % 2 == 0) {
-                position[middle] = (char) (65+middle) + Integer.toString(dimension);
+                position[middle] = (char) (65+middle) + Integer.toString(dimension); // if the middle position is even
+                                                                                     // the fox will add the right of the middle
             } else {
-                position[middle] = (char) (64+middle) + Integer.toString(dimension);
+                position[middle] = (char) (64+middle) + Integer.toString(dimension); // if the middle is odd
+                                                                                     // add the position into the middle
             }
         } else {
-            if (((dimension + 1) / 2) % 2 == 0) {
+            if (((dimension + 1) / 2) % 2 == 0) {           // same procedure for the odd dimension
                 position[middle] = (char) (65+middle) + Integer.toString(dimension);
             } else {
                 position[middle] = (char) (66+middle) + Integer.toString(dimension);

@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 /** 
@@ -91,6 +92,7 @@ public class FoxHoundGame {
 
         String[] players = FoxHoundUtils.initialisePositions(dimension);
         gameLoop(dimension, players);
+
 
         // Close the scanner reading the standard input stream       
         STDIN_SCAN.close();
