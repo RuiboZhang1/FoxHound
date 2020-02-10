@@ -2,20 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="567b4476-30c5-4b59-8e5a-760cd187a4b9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/test/FoxHoundUIBasicTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/test/FoxHoundUtilsBasicTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/FoxHoundUIBasicTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test-results/test/TEST-FoxHoundUIBasicTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/FoxHoundGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/FoxHoundGame.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/FoxHoundUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/FoxHoundUI.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/FoxHoundUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/FoxHoundUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FoxHoundGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FoxHoundGame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/FoxHoundUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FoxHoundUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/FoxHoundUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FoxHoundUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FoxHoundIOBasicTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FoxHoundIOBasicTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FoxHoundUIBasicTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FoxHoundUIBasicTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,21 +94,10 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="show.unlinked.gradle.project.popup" value="true" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle.FoxHoundUIBasicTest.testDisplayBoard">
     <configuration name="FoxHoundGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FoxHoundGame" />
       <module name="inf1b-cw1.main" />
@@ -100,11 +105,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FoxHoundUIBasicTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;FoxHoundUIBasicTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="FoxHoundUIBasicTest.testDisplayBoard" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;FoxHoundUIBasicTest.testDisplayBoard&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.FoxHoundUIBasicTest.testDisplayBoard" />
+        <item itemvalue="Gradle.FoxHoundUIBasicTest" />
         <item itemvalue="Application.FoxHoundGame" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -152,6 +211,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="sb" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="100" y="100" width="1080" height="600" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1581346496060">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="100" y="100" width="1080" height="600" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1280.800@0.0.1280.800" timestamp="1581346496060" />
     <state x="178" y="5" key="CommitChangelistDialog2" timestamp="1581180212606">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -160,22 +223,22 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="100" y="100" width="1080" height="600" key="DiffContextDialog/0.0.1280.800@0.0.1280.800" timestamp="1581289086004" />
-    <state width="1238" height="192" key="GridCell.Tab.0.bottom" timestamp="1581289980855">
+    <state width="1236" height="192" key="GridCell.Tab.0.bottom" timestamp="1581346968208">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="192" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1581289980855" />
-    <state width="1238" height="192" key="GridCell.Tab.0.center" timestamp="1581289980854">
+    <state width="1236" height="192" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1581346968208" />
+    <state width="1236" height="192" key="GridCell.Tab.0.center" timestamp="1581346968207">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="192" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1581289980854" />
-    <state width="1238" height="192" key="GridCell.Tab.0.left" timestamp="1581289980854">
+    <state width="1236" height="192" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1581346968207" />
+    <state width="1236" height="192" key="GridCell.Tab.0.left" timestamp="1581346968206">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="192" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1581289980854" />
-    <state width="1238" height="192" key="GridCell.Tab.0.right" timestamp="1581289980854">
+    <state width="1236" height="192" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1581346968206" />
+    <state width="1236" height="192" key="GridCell.Tab.0.right" timestamp="1581346968207">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="192" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1581289980854" />
+    <state width="1236" height="192" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1581346968207" />
     <state width="1218" height="238" key="GridCell.Tab.1.bottom" timestamp="1581286758994">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -200,6 +263,10 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="351" y="123" key="MultipleFileMergeDialog/0.0.1280.800@0.0.1280.800" timestamp="1581186506539" />
+    <state x="141" y="39" key="SettingsEditor" timestamp="1581351748103">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="141" y="39" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1581351748103" />
     <state x="317" y="232" key="com.intellij.ide.util.TipDialog" timestamp="1581186429085">
       <screen x="0" y="0" width="1280" height="800" />
     </state>

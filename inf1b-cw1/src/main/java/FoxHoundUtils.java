@@ -51,16 +51,56 @@ public class FoxHoundUtils {
 
     /** Check if the move is valid */
     public static boolean isValidMove(int dim, String[] players, char figure, String origin, String dest) {
+        boolean isValid = false;
+
+
         // check if the figure is in the origin
 
-        // check if the dest is out of dim
+        if (figure == 'H') {
+            for (int i = 0; i < players.length-1;i++) {
+                if (players[i] == origin) {
+                    isValid = true;
+                }
+            }
+        } else {
+            if (players[players.length-1] == origin) {
+                isValid = true;
+            }
+        }
 
+
+        // hound can't go back
+        if (figure == 'H') {
+            if (FoxHoundUI.getTail(origin) < FoxHoundUI.getTail(dest)) {
+                isValid = true;
+            }
+        }
+
+
+        // check if the dest is out of dim
+        if (FoxHoundUI.getTail(dest) < dim || FoxHoundUI.getTail(dest) > 0) {
+            isValid = true;
+        }
+
+        boolean firstBool = (origin.charAt(0) + 1 == dest.charAt(0) || origin.charAt(0) - 1 == dest.charAt(0));
         // check if the dest can be reach by origin
+        if (figure == 'F') {
+            boolean secondBool = ((FoxHoundUI.getTail(origin)) + 1 == FoxHoundUI.getTail(dest) || FoxHoundUI.getTail(origin) -1 == FoxHoundUI.getTail(dest));
+            if (firstBool && secondBool) {
+                isValid = true;
+            }
+        } else {
+            boolean secondBool = (FoxHoundUI.getTail(origin)) + 1 == FoxHoundUI.getTail(dest);
+            if (firstBool && secondBool) {
+                isValid = true;
+            }
+        }
 
         // check if the dest occupied by other figures
 
 
-        return true;
+
+        return isValid;
     }
 
 
@@ -70,6 +110,7 @@ public class FoxHoundUtils {
     }
 
 
-    public static void isFoxWin(Object o) {
+    public static boolean isFoxWin(Object o) {
+        return false;
     }
 }

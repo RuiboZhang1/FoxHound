@@ -1,3 +1,4 @@
+import java.nio.file.Path;
 import java.util.Scanner;
 import java.util.Objects;
 
@@ -20,16 +21,20 @@ public class FoxHoundUI {
     /** Menu entry to terminate the program. */
     public static final int MENU_EXIT = 2;
 
+    /** when dimension > 10, we need to find the y coordinate of the player. */
+    public static int getTail(String player) {
+        String tail = "";
+        for (int j = 1; j < player.length(); j++ ) {
+            tail += player.charAt(j);
+        }
+        return  Integer.parseInt(tail);
+    }
+
 
 
     /** Method to print the main board. */
     private static void displayMainBoard(String[] players, int dimension, int i) {
 
-        // when dimension > 10, we need to find the y coordinate of the fox.
-        String tail = "";
-        for (int j = 1; j < players[players.length-1].length(); j++ ) {
-            tail += players[players.length -1].charAt(j);
-        }
 
         for (int j = 0; j < dimension; j++) {
             boolean foundHound = false;
@@ -42,7 +47,7 @@ public class FoxHoundUI {
                 } else foundHound = false;
             }
 
-            if (((players[players.length - 1].charAt(0)) - 'A') == j && (Integer.parseInt(tail) == i)) {
+            if (((players[players.length - 1].charAt(0)) - 'A') == j && (getTail(players[players.length-1])) == i) {
                 foundFox = true;
             }
 
@@ -77,7 +82,7 @@ public class FoxHoundUI {
 
 
         // Print the empty line
-        System.out.print("\n");
+        System.out.print("  \n\n");
 
 
         // Print the main graph
@@ -166,6 +171,14 @@ public class FoxHoundUI {
         }
 
         return input;
+    }
+
+    public static String[] positionQuery(int dim, Scanner test_in) {
+        return null;
+    }
+
+    public static Path fileQuery(Scanner test_in) {
+        return null;
     }
 }
 
