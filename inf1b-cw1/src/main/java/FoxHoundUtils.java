@@ -24,6 +24,11 @@ public class FoxHoundUtils {
     // HINT Write your own constants here to improve code readability ...
 
     public static String[] initialisePositions(int dimension) {
+        if (dimension < 5) {
+            throw new IllegalArgumentException();
+        }
+
+
         int middle = dimension / 2;
         String[] position = new String[middle+1];
         for (int i = 0; i < middle; i++) {
@@ -54,11 +59,24 @@ public class FoxHoundUtils {
         boolean isValid = false;
 
         // Check if the figure is valid
-        if (figure == 'H' || figure == 'F') {
-            isValid = true;
-        } else {
-            System.err.println("This is an invalid input figure.");
+        if (figure == 'H') {
+            for (int i = 0; i < players.length - 1; i++) {
+                if (players[i] == origin) {
+                    isValid = true;
+                    break;
+                }
+            }
+            if(isValid == false) {
+                return  isValid;
+            }
+        } else if (figure == 'F') {
+            if (players[players.length-1] == origin) {
+                isValid = true;
+            } else {
+                return false;
+            }
         }
+
 
 
         // check if the figure is in the origin
@@ -90,6 +108,8 @@ public class FoxHoundUtils {
         }
 
         boolean firstBool = (origin.charAt(0) + 1 == dest.charAt(0) || origin.charAt(0) - 1 == dest.charAt(0));
+
+
         // check if the dest can be reach by origin
         if (figure == 'F') {
             boolean secondBool = ((FoxHoundUI.getTail(origin)) + 1 == FoxHoundUI.getTail(dest) || FoxHoundUI.getTail(origin) -1 == FoxHoundUI.getTail(dest));
@@ -103,15 +123,16 @@ public class FoxHoundUtils {
             }
         }
 
-        // check if the dest occupied by other figures
 
+        // check if the dest occupied by other figures
         for (int i = 0; i < players.length; i++) {
-            if (players[i].equals(dest)) {
+            if (players[i] == dest) {
                 isValid = false;
+                return isValid;
             } else {
                 isValid = true;
-                break;
             }
+
         }
 
         return isValid;

@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="567b4476-30c5-4b59-8e5a-760cd187a4b9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/FoxHoundUtilsBasicTest.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/test-results/test/TEST-FoxHoundUtilsBasicTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -14,13 +12,12 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/FoxHoundUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/FoxHoundUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/FoxHoundUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/FoxHoundUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/FoxHoundUIBasicTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/FoxHoundUtilsBasicTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/FoxHoundUtilsBasicTest.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-FoxHoundUIBasicTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-FoxHoundUtilsBasicTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-FoxHoundUtilsBasicTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/FoxHoundUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FoxHoundUtils.java" afterDir="false" />
     </list>
@@ -37,6 +34,9 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
@@ -88,39 +88,7 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="show.unlinked.gradle.project.popup" value="true" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Gradle.FoxHoundUtilsBasicTest.testIsValidMoveInvalidFigureAtOrigin">
-    <configuration name="FoxHoundUIBasicTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;FoxHoundUIBasicTest&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Gradle.FoxHoundUtilsBasicTest">
     <configuration name="FoxHoundUIBasicTest.testDisplayBoard" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -147,6 +115,26 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;FoxHoundUtilsBasicTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="FoxHoundUtilsBasicTest.testIsValidMoveDestOccupied" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;FoxHoundUtilsBasicTest.testIsValidMoveDestOccupied&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -203,13 +191,25 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.FoxHoundUtilsBasicTest.testIsValidMoveInvalidFigureAtOrigin" />
-        <item itemvalue="Gradle.FoxHoundUtilsBasicTest.testIsValidMoveEmptyOrigin" />
         <item itemvalue="Gradle.FoxHoundUtilsBasicTest" />
+        <item itemvalue="Gradle.FoxHoundUtilsBasicTest.testIsValidMoveInvalidFigureAtOrigin" />
+        <item itemvalue="Gradle.FoxHoundUtilsBasicTest.testIsValidMoveDestOccupied" />
+        <item itemvalue="Gradle.FoxHoundUtilsBasicTest.testIsValidMoveEmptyOrigin" />
         <item itemvalue="Gradle.FoxHoundUIBasicTest.testDisplayBoard" />
-        <item itemvalue="Gradle.FoxHoundUIBasicTest" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -269,38 +269,38 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="100" y="100" width="1080" height="600" key="DiffContextDialog/0.0.1280.800@0.0.1280.800" timestamp="1581289086004" />
-    <state width="1236" height="192" key="GridCell.Tab.0.bottom" timestamp="1581346968208">
+    <state width="1236" height="280" key="GridCell.Tab.0.bottom" timestamp="1581367647383">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1236" height="192" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1581346968208" />
-    <state width="1236" height="192" key="GridCell.Tab.0.center" timestamp="1581346968207">
+    <state width="1236" height="280" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1581367647383" />
+    <state width="1236" height="280" key="GridCell.Tab.0.center" timestamp="1581367647377">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1236" height="192" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1581346968207" />
-    <state width="1236" height="192" key="GridCell.Tab.0.left" timestamp="1581346968206">
+    <state width="1236" height="280" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1581367647377" />
+    <state width="1236" height="280" key="GridCell.Tab.0.left" timestamp="1581367647376">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1236" height="192" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1581346968206" />
-    <state width="1236" height="192" key="GridCell.Tab.0.right" timestamp="1581346968207">
+    <state width="1236" height="280" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1581367647376" />
+    <state width="1236" height="280" key="GridCell.Tab.0.right" timestamp="1581367647380">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1236" height="192" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1581346968207" />
-    <state width="1218" height="238" key="GridCell.Tab.1.bottom" timestamp="1581286758994">
+    <state width="1236" height="280" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1581367647380" />
+    <state width="1236" height="280" key="GridCell.Tab.1.bottom" timestamp="1581367647187">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1218" height="238" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1581286758994" />
-    <state width="1218" height="238" key="GridCell.Tab.1.center" timestamp="1581286758993">
+    <state width="1236" height="280" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1581367647187" />
+    <state width="1236" height="280" key="GridCell.Tab.1.center" timestamp="1581367647187">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1218" height="238" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1581286758993" />
-    <state width="1218" height="238" key="GridCell.Tab.1.left" timestamp="1581286758993">
+    <state width="1236" height="280" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1581367647187" />
+    <state width="1236" height="280" key="GridCell.Tab.1.left" timestamp="1581367647186">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1218" height="238" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1581286758993" />
-    <state width="1218" height="238" key="GridCell.Tab.1.right" timestamp="1581286758993">
+    <state width="1236" height="280" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1581367647186" />
+    <state width="1236" height="280" key="GridCell.Tab.1.right" timestamp="1581367647187">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1218" height="238" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1581286758993" />
+    <state width="1236" height="280" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1581367647187" />
     <state x="128" y="69" key="MergeDialog" timestamp="1581186504785">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
