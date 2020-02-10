@@ -53,6 +53,13 @@ public class FoxHoundUtils {
     public static boolean isValidMove(int dim, String[] players, char figure, String origin, String dest) {
         boolean isValid = false;
 
+        // Check if the figure is valid
+        if (figure == 'H' || figure == 'F') {
+            isValid = true;
+        } else {
+            System.err.println("This is an invalid input figure.");
+        }
+
 
         // check if the figure is in the origin
 
@@ -98,7 +105,14 @@ public class FoxHoundUtils {
 
         // check if the dest occupied by other figures
 
-
+        for (int i = 0; i < players.length; i++) {
+            if (players[i].equals(dest)) {
+                isValid = false;
+            } else {
+                isValid = true;
+                break;
+            }
+        }
 
         return isValid;
     }
