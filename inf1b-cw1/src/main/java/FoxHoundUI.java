@@ -20,12 +20,14 @@ public class FoxHoundUI {
     /** Menu entry to terminate the program. */
     public static final int MENU_EXIT = 2;
 
+
+
     /** Method to print the main board. */
     private static void displayMainBoard(String[] players, int dimension, int i) {
 
         // when dimension > 10, we need to find the y coordinate of the fox.
         String tail = "";
-        for (int j = 1; j < 3; j++ ) {
+        for (int j = 1; j < players[players.length-1].length(); j++ ) {
             tail += players[players.length -1].charAt(j);
         }
 

@@ -45,19 +45,30 @@ public class FoxHoundUtils {
                 position[middle] = (char) (66+middle) + Integer.toString(dimension);
             }
         }
-
         return  position;
-
-
     }
+
+
+    /** Check if the move is valid */
+    public static boolean isValidMove(int dim, String[] players, char figure, String origin, String dest) {
+        // check if the figure is in the origin
+
+        // check if the dest is out of dim
+
+        // check if the dest can be reach by origin
+
+        // check if the dest occupied by other figures
+
+
+        return true;
+    }
+
+
 
     public static boolean isHoundWin(String[] players, int dimension) {
         return true;
     }
 
-    public static boolean isValidMove(int dim, String[] players, char figure, String origin, String dest) {
-        return true;
-    }
 
     public static void isFoxWin(Object o) {
     }
