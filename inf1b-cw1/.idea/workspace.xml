@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="567b4476-30c5-4b59-8e5a-760cd187a4b9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/FoxHoundUIBasicTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test-results/test/TEST-FoxHoundUIBasicTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
@@ -13,13 +16,21 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/FoxHoundGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/FoxHoundGame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/FoxHoundUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/FoxHoundUI.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/FoxHoundUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/FoxHoundUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/FoxHoundUtilsBasicTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/FoxHoundUtilsBasicTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/FoxHoundUIBasicTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/FoxHoundUIBasicTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/FoxHoundUtilsBasicTest.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-FoxHoundUtilsBasicTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-FoxHoundUtilsBasicTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-FoxHoundUtilsBasicTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FoxHoundGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FoxHoundGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FoxHoundUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FoxHoundUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/FoxHoundUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FoxHoundUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FoxHoundUIBasicTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FoxHoundUIBasicTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,13 +99,20 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="show.unlinked.gradle.project.popup" value="true" />
   </component>
-  <component name="RunManager" selected="Gradle.FoxHoundUtilsBasicTest">
-    <configuration name="FoxHoundUIBasicTest.testDisplayBoard" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Application.FoxHoundGame">
+    <configuration name="FoxHoundGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FoxHoundGame" />
+      <module name="inf1b-cw1.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FoxHoundUIBasicTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;FoxHoundUIBasicTest.testDisplayBoard&quot;" />
+        <option name="scriptParameters" value="--tests &quot;FoxHoundUIBasicTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -109,12 +127,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="FoxHoundUtilsBasicTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="FoxHoundUIBasicTest.testPositionQueryError" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;FoxHoundUtilsBasicTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;FoxHoundUIBasicTest.testPositionQueryError&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -129,12 +147,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="FoxHoundUtilsBasicTest.testIsValidMoveDestOccupied" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="FoxHoundUIBasicTest.testPositionQueryMessage" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;FoxHoundUtilsBasicTest.testIsValidMoveDestOccupied&quot;" />
+        <option name="scriptParameters" value="--tests &quot;FoxHoundUIBasicTest.testPositionQueryMessage&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -149,32 +167,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="FoxHoundUtilsBasicTest.testIsValidMoveEmptyOrigin" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="FoxHoundUIBasicTest.testPositionQueryReturn" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;FoxHoundUtilsBasicTest.testIsValidMoveEmptyOrigin&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="FoxHoundUtilsBasicTest.testIsValidMoveInvalidFigureAtOrigin" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;FoxHoundUtilsBasicTest.testIsValidMoveInvalidFigureAtOrigin&quot;" />
+        <option name="scriptParameters" value="--tests &quot;FoxHoundUIBasicTest.testPositionQueryReturn&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -191,11 +189,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.FoxHoundUtilsBasicTest" />
-        <item itemvalue="Gradle.FoxHoundUtilsBasicTest.testIsValidMoveInvalidFigureAtOrigin" />
-        <item itemvalue="Gradle.FoxHoundUtilsBasicTest.testIsValidMoveDestOccupied" />
-        <item itemvalue="Gradle.FoxHoundUtilsBasicTest.testIsValidMoveEmptyOrigin" />
-        <item itemvalue="Gradle.FoxHoundUIBasicTest.testDisplayBoard" />
+        <item itemvalue="Gradle.FoxHoundUIBasicTest" />
+        <item itemvalue="Gradle.FoxHoundUIBasicTest.testPositionQueryError" />
+        <item itemvalue="Gradle.FoxHoundUIBasicTest.testPositionQueryReturn" />
+        <item itemvalue="Gradle.FoxHoundUIBasicTest.testPositionQueryMessage" />
+        <item itemvalue="Application.FoxHoundGame" />
       </list>
     </recent_temporary>
   </component>
@@ -225,6 +223,8 @@
       <workItem from="1581185803742" duration="189000" />
       <workItem from="1581186425740" duration="316000" />
       <workItem from="1581260979631" duration="15862000" />
+      <workItem from="1581452508652" duration="58000" />
+      <workItem from="1581452590788" duration="12731000" />
     </task>
     <task id="LOCAL-00001" summary="sb">
       <created>1581180213060</created>
@@ -233,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581180213060</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="sb">
+      <created>1581367690711</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1581367690711</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,50 +264,50 @@
     <option name="LAST_COMMIT_MESSAGE" value="sb" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="100" y="100" width="1080" height="600" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1581346496060">
+    <state x="99" y="99" width="1080" height="600" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1581453323348">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="100" y="100" width="1080" height="600" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1280.800@0.0.1280.800" timestamp="1581346496060" />
-    <state x="178" y="5" key="CommitChangelistDialog2" timestamp="1581180212606">
+    <state x="99" y="99" width="1080" height="600" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1280.800@0.0.1280.800" timestamp="1581453323348" />
+    <state x="119" y="0" width="1161" height="800" key="CommitChangelistDialog2" timestamp="1581367690260">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="178" y="5" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1581180212606" />
+    <state x="119" y="0" width="1161" height="800" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1581367690260" />
     <state x="100" y="100" width="1080" height="600" key="DiffContextDialog" timestamp="1581289086004">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="100" y="100" width="1080" height="600" key="DiffContextDialog/0.0.1280.800@0.0.1280.800" timestamp="1581289086004" />
-    <state width="1236" height="280" key="GridCell.Tab.0.bottom" timestamp="1581367647383">
+    <state width="1236" height="211" key="GridCell.Tab.0.bottom" timestamp="1581608461110">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1236" height="280" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1581367647383" />
-    <state width="1236" height="280" key="GridCell.Tab.0.center" timestamp="1581367647377">
+    <state width="1236" height="211" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1581608461110" />
+    <state width="1236" height="211" key="GridCell.Tab.0.center" timestamp="1581608461109">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1236" height="280" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1581367647377" />
-    <state width="1236" height="280" key="GridCell.Tab.0.left" timestamp="1581367647376">
+    <state width="1236" height="211" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1581608461109" />
+    <state width="1236" height="211" key="GridCell.Tab.0.left" timestamp="1581608461108">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1236" height="280" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1581367647376" />
-    <state width="1236" height="280" key="GridCell.Tab.0.right" timestamp="1581367647380">
+    <state width="1236" height="211" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1581608461108" />
+    <state width="1236" height="211" key="GridCell.Tab.0.right" timestamp="1581608461109">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1236" height="280" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1581367647380" />
-    <state width="1236" height="280" key="GridCell.Tab.1.bottom" timestamp="1581367647187">
+    <state width="1236" height="211" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1581608461109" />
+    <state width="1236" height="211" key="GridCell.Tab.1.bottom" timestamp="1581608461111">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1236" height="280" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1581367647187" />
-    <state width="1236" height="280" key="GridCell.Tab.1.center" timestamp="1581367647187">
+    <state width="1236" height="211" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1581608461111" />
+    <state width="1236" height="211" key="GridCell.Tab.1.center" timestamp="1581608461110">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1236" height="280" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1581367647187" />
-    <state width="1236" height="280" key="GridCell.Tab.1.left" timestamp="1581367647186">
+    <state width="1236" height="211" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1581608461110" />
+    <state width="1236" height="211" key="GridCell.Tab.1.left" timestamp="1581608461110">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1236" height="280" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1581367647186" />
-    <state width="1236" height="280" key="GridCell.Tab.1.right" timestamp="1581367647187">
+    <state width="1236" height="211" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1581608461110" />
+    <state width="1236" height="211" key="GridCell.Tab.1.right" timestamp="1581608461111">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1236" height="280" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1581367647187" />
+    <state width="1236" height="211" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1581608461111" />
     <state x="128" y="69" key="MergeDialog" timestamp="1581186504785">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -309,10 +316,14 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="351" y="123" key="MultipleFileMergeDialog/0.0.1280.800@0.0.1280.800" timestamp="1581186506539" />
-    <state x="141" y="39" key="SettingsEditor" timestamp="1581351748103">
+    <state x="141" y="39" key="SettingsEditor" timestamp="1581435146550">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="141" y="39" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1581351748103" />
+    <state x="141" y="39" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1581435146550" />
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1581367692753">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1581367692753" />
     <state x="317" y="232" key="com.intellij.ide.util.TipDialog" timestamp="1581186429085">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -321,12 +332,38 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="423" y="324" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.800@0.0.1280.800" timestamp="1581186486063" />
+    <state x="305" y="51" width="670" height="676" key="search.everywhere.popup" timestamp="1581452552835">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="305" y="51" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1581452552835" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/FoxHoundUI.java</url>
+          <line>202</line>
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/FoxHoundUI.java</url>
+          <line>220</line>
+          <option name="timeStamp" value="115" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/FoxHoundUI.java</url>
+          <line>226</line>
+          <option name="timeStamp" value="116" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="Remote">
         <watch expression="players[k].charAt(1) - '1'-1" language="JAVA" />
       </configuration>
     </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/inf1b_cw1$FoxHoundUIBasicTest_testPositionQueryError.ic" NAME="FoxHoundUIBasicTest.testPositionQueryError Coverage Results" MODIFIED="1581441545597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
