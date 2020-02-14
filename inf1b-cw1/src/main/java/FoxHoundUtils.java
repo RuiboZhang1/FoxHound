@@ -103,7 +103,7 @@ public class FoxHoundUtils {
 
 
         // check if the dest is out of dim
-        if (FoxHoundUI.getTail(dest) < dim && FoxHoundUI.getTail(dest) > 0) {
+        if (FoxHoundUI.getTail(dest) <= dim && FoxHoundUI.getTail(dest) > 0) {
             isValid = true;
         } else {
             return false;
@@ -145,15 +145,25 @@ public class FoxHoundUtils {
 
 
     public static boolean isHoundWin(String[] players, int dimension) {
+        boolean win = true;
         String foxPosition = players[players.length - 1];
 
-        int foxLetter = foxPosition.charAt(0);
+        char foxLetter = foxPosition.charAt(0);
         int foxNum = FoxHoundUI.getTail(foxPosition);
 
         String[] testFox =
                 {(Character.toString(foxLetter + 1) + Integer.toString(foxNum + 1))
-                ,(Character.toString(foxLetter + 1) + Integer.toString(foxNum -1))
-                ,(Character.toString(foxLetter - 1) + Integer.toString(foxNum + 1))};
+                ,(Character.toString(foxLetter + 1) + Integer.toString(foxNum - 1))
+                ,(Character.toString(foxLetter - 1) + Integer.toString(foxNum + 1))
+                ,(Character.toString(foxLetter - 1) + Integer.toString(foxNum - 1))};
+
+        for (String test : testFox) {
+            if (isValidMove(dimension,players,'F',foxPosition,test) == true) {
+                return false;
+            }
+        }
+
+        return  win;
     }
 
 

@@ -211,7 +211,7 @@ public class FoxHoundUI {
 
             try {
                 Boolean checkDim1 = (origin.charAt(0) - 'A' <= dim && origin.charAt(0) - 'A' >= 0);
-                Boolean checkDim2 = (dest.charAt(0) - 'A' <= dim && dest.charAt(0) - 'A' > 0);
+                Boolean checkDim2 = (dest.charAt(0) - 'A' <= dim && dest.charAt(0) - 'A' >= 0);
                 Boolean checkDim3 = getTail(origin) > 0 && getTail(origin) <= dim;
                 Boolean checkDim4 = getTail(dest) > 0 && getTail(dest) <= dim;
 
