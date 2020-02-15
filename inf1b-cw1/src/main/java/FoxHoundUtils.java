@@ -145,6 +145,11 @@ public class FoxHoundUtils {
 
 
     public static boolean isHoundWin(String[] players, int dimension) {
+        if (dimension < 4 || dimension > 26) {
+            throw new IllegalArgumentException();
+        }
+
+
         boolean win = true;
         String foxPosition = players[players.length - 1];
 

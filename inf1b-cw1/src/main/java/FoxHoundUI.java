@@ -1,4 +1,5 @@
 import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.Scanner;
 import java.util.Objects;
 
@@ -18,16 +19,24 @@ public class FoxHoundUI {
      * Main menu display string.
      */
     private static final String MAIN_MENU =
-            "\n1. Move\n2. Exit\n\nEnter 1 - 2:";
+            "\n1. Move\n2. Save Game\n3. Load Game\n4. Exit\n\nEnter 1 - 4:";
 
     /**
      * Menu entry to select a move action.
      */
     public static final int MENU_MOVE = 1;
     /**
+     * Menu entry to save the game.
+     */
+    public static final int MENU_SAVE = 2;
+    /**
+     * Menu entry to load the game.
+     */
+    public static final int MENU_LOAD = 3;
+    /**
      * Menu entry to terminate the program.
      */
-    public static final int MENU_EXIT = 2;
+    public static final int MENU_EXIT = 4;
 
     /**
      * when dimension > 10, we need to find the y coordinate of the player.
@@ -231,8 +240,10 @@ public class FoxHoundUI {
         return move;
     }
 
-    public static Path fileQuery(Scanner test_in) {
-        return null;
+    public static Path fileQuery(Scanner scanner) {
+        System.out.println("Enter file path:");
+        Path path = Paths.get(scanner.nextLine());
+        return path;
     }
 }
 

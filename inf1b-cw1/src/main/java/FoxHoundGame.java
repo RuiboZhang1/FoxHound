@@ -1,3 +1,4 @@
+import java.nio.file.Path;
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -88,6 +89,15 @@ public class FoxHoundGame {
                     }
                     turn = swapPlayers(turn);
                     break;
+
+                case FoxHoundUI.MENU_SAVE:
+                    Path path = FoxHoundUI.fileQuery(STDIN_SCAN);
+                    FoxHoundIO.saveGame(players, turn, path);
+                    break;
+
+                case FoxHoundUI.MENU_LOAD:
+                    break;
+
                 case FoxHoundUI.MENU_EXIT:
                     exit = true;
                     break;
@@ -123,9 +133,5 @@ public class FoxHoundGame {
 
         // Close the scanner reading the standard input stream       
         STDIN_SCAN.close();
-
-        //String[] players = {"B1", "D1", "F1", "H1", "E8"};
-        //System.out.println(FoxHoundUtils.isValidMove(8, players, 'F', "E8", "P10"));
-        //System.out.println(FoxHoundUI.getTail("P10"));
     }
 }
